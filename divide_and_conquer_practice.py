@@ -1,9 +1,5 @@
-# Name:  - Nida <br>
-# Peers:  - N/A <br>
-# References:  - https://www.geeksforgeeks.org/python-program-for-merge-sort/ <br>
 import math
 
-### DO NOT EDIT ###
 def new_array(size: int):
     L = [0] * size
     return L
@@ -13,8 +9,6 @@ def printGrid(grid:list) -> None:
         for j in i:
             print(j, end=" ")
         print()
-### END OF DO NOT EDIT BLOCK ###
-
 
 # Problem 1: SQUARES
 def squares(grid:list) -> None:
